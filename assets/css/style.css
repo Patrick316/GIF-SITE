@@ -1,0 +1,17 @@
+ button,
+    div,
+    form,
+    input {
+      margin: 10px;
+      color: #677c77;
+    }
+
+    * {
+  box-sizing: border-box;
+}
+button{
+	background-color: #bccbe2;
+}
+body{
+	background-color: #e1e8f4;
+}

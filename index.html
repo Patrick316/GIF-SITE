@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+ <div class="container">
+
+
+    <div id="food-view"></div>
+
+    	<form id="food-form">
+      		<label for="food-input">Add Some Food</label>
+     		 <input type="text" id="food-input"><br>
+         	<input id="add-food" type="submit" value="Add food">
+     	</form>
+   <ul class="gif-list">
+   	
+   </ul>
+</div>
+ <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+  <script src="./assets/js/scripts.js"></script>
+
+  
+
+</body>
+</html>
+<!-- 
+create a var with an array of foods
+link food to there specific giphs
+add input button
+ad input to the array
+link it to giphs
+start and pause on each giph
+have giphs paused
+have them smaller in size
+click other topics to change
+].slice.apply(document.images).filter(is_gif_image).map(freeze_gif);
+
+function is_gif_image(i) {
+    return /^(?!data:).*\.gif/i.test(i.src);
+}
+
+function freeze_gif(i) {
+
+
+$(function(){
+  $('img').each(function(e){
+    var src = $(e).attr('src');
+    $(e).hover(function(){
+      $(this).attr('src', src.replace('.gif', '_anim.gif'));
+    }, function(){
+      $(this).attr('src', src);
+    });
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
