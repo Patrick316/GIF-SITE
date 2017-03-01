@@ -1,3 +1,6 @@
+     
+
+
       var foods = ["Pizza", "Eggplant", "Brownies", "Tomato Soup" , "Grilled Cheese", "Hotdog", "Chocolate", "Cookie", "Toast", "Carrots", 
       "Salmon", "Cereal", "Cake", "Pasta", "Ice Cream", "Apples", "Cottage Cheese", "Salad", "Shrimp", "Tacos", "Clams", ];     
            
@@ -43,7 +46,7 @@
         $(".gif-list").empty();
 
         $.ajax({  
-        url: "http://api.giphy.com/v1/gifs/search?q="+value+"&api_key=dc6zaTOxFJmzC" ,
+        url: "https://api.giphy.com/v1/gifs/search?q="+value+"&api_key=dc6zaTOxFJmzC" ,
         method: "GET"
         }).done(function(response) {
 
